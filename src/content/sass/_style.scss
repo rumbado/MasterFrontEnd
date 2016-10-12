@@ -1,0 +1,78 @@
+form{
+    div.row{
+        display: table;
+        height: 100%;
+        width: 100%;
+
+        .loginBox{
+            padding: 1em;
+
+            @media(min-width:992px){
+                margin-left:20%;
+                margin-right:20%;
+                margin-top:15%;
+                float: none;
+                display: block;
+                border: 2px solid;
+            }
+
+            
+        }
+    
+        .alternativeLogin{
+            @media(min-width:992px){
+                    position: absolute;
+                    left:0;
+                    top:0;
+                    height: 100%;
+                    width: 100%;
+                    
+                    .form-group{
+                        margin-top:12%;
+                        float:right;
+
+                        button{
+                            margin:10%;
+                            width:60px;
+                            height:60px;        
+                        }
+                    }
+            }
+
+            @media(max-width:991px){
+                .form-group{
+                    
+                    text-align: center;
+
+                    button{
+                        margin:4%;
+                        border: none;
+                        background-size: cover;
+                        background-color: transparent;
+                        width:40px;
+                        height:40px;
+                    }
+                }
+            }
+
+            .form-group button{
+                    border: none;
+                    background-size: cover;
+                    background-color: transparent;
+                }
+
+            .form-group button.btn-facebook{
+                background-image: url("../img/facebook.png");
+            }
+
+            .form-group button.btn-github{
+                background-image: url("../img/github.png");
+            }
+
+            .form-group button.btn-google-plus{
+                background-image: url("../img/google-plus.png");
+            }
+        }
+    }
+}
+

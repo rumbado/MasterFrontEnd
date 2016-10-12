@@ -1,0 +1,19 @@
+{
+  "name": "leanmood",
+  "version": "1.0.0",
+  "description": "Lean Mood Practica",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BRR",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0",
+    "gulp-sass": "^2.3.2",
+    "jquery": "^3.1.1"
+  }
+}
